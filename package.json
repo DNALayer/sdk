@@ -1,0 +1,18 @@
+{
+  "name": "dnalayer",
+  "version": "1.0.0",
+  "description": "Decentralized AI execution layer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node api/server.js",
+    "validator": "node ai-consensus/validator.js",
+    "oracle": "node oracle-layer/fetcher.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "express": "^4.19.2"
+  }
+}
